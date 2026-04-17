@@ -1,0 +1,7 @@
+numero = int(input("Digite um valor: "))
+
+def reverso_numero(numero):
+    string_num = str(numero)
+    return string_num[::-1]
+
+print(f"O reverso de {numero} é {reverso_numero(numero)} ")

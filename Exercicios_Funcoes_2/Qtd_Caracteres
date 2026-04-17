@@ -1,0 +1,8 @@
+numero = int(input("Digite um valor: "))
+
+def quantos_carac(numero):
+    string_num = str(numero)
+    return len(string_num)
+
+print(f"O número {numero} tem {quantos_carac(numero)} caracteres")
+    
